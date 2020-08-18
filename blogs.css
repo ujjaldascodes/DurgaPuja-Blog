@@ -1,0 +1,73 @@
+body{
+  width:100%;
+  border: 15px solid #2D882D;
+  font-family: 'Roboto Slab', serif;padding: 20px;
+  margin: 20px auto;
+  max-width:92%;
+  background-image: url("https://image.freepik.com/free-photo/white-brick-texture-background_84485-92.jpg");
+  background-blend-mode: hard-light;
+  background-size: auto;
+}
+
+.heading{
+  color: #C80000;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  text-decoration: underline #C80000;
+}
+
+.post{
+  margin-bottom: 20px;
+
+}
+.note{
+  border-left: 5px solid #2D882D;
+}
+a:hover{
+  color: red;
+
+}
+
+hr{
+  display: block;
+     content: "";
+     height: 30px;
+     margin-top: -31px;
+     border-style: solid;
+     border-color:#404040;
+     border-width: 0 0 1px 0;
+     border-radius:55px;
+}
+h1{
+  font-family: fantasy;
+  font-weight: bold;
+  box-shadow:4px 4px 5px #888888;
+  width: 430px;
+  border-bottom: 2px solid #B114EB;
+}
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}

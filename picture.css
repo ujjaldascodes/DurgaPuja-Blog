@@ -1,0 +1,33 @@
+body{
+  background-image: url("https://wallpaperaccess.com/full/1977340.jpg");
+  background-size: cover;
+}
+.bucket{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+img {
+  width:380px;
+  height:380px;
+  float: left;
+  margin: 1.66%;
+  transition: all 1s;
+  border: 5px solid #13AFAF;
+}
+img:hover{
+  transform: scale(1.2);
+}
+
+p {
+  font-family:sans-serif;
+  color:#13AFAF;
+  border: #13AFAF;
+  margin-left: 1.66%;
+  font-size: 25px;
+  font-weight: 810;
+  text-transform: uppercase;
+  border-bottom: 2px solid #13AFAF;
+  width:100%;
+  padding-bottom: 20px;
+}
